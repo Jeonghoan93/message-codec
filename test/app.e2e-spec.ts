@@ -1,8 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
-import { MessageController } from '../src/message-codec/message.controller';
-import { HttpMessageDto } from 'src/message-codec/dto/message.dto';
+import { MessageController } from '../src/message/message.controller';
+import { HttpMessageDto } from 'src/message/dto/message.dto';
 
 describe('App Module (e2e)', () => {
   let app;

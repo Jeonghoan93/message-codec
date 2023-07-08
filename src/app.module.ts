@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { MessageModule } from './message-codec/message.module';
+import { MessageModule } from './message/message.module';
 
 @Module({
   imports: [MessageModule],
